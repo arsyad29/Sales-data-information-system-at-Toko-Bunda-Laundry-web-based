@@ -1,0 +1,246 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+main {
+    margin-top: 500px;
+}
+
+/*NAVBAR*/
+.header-site {
+    border-bottom: 2px solid black;
+    height: 50px;
+}
+
+.pembungkus-header {
+    display: flex;
+    align-items: center;
+    padding: 0 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.navbar-kiri {
+    width: 60%;
+}
+
+.pembungkus-navbar-kanan {
+    display: flex;
+    width: 40%;
+}
+
+.navbar-menu nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+    margin: 50px;
+    font-size: 12px;
+}
+
+.navbar-menu .menu-item {
+    text-decoration: none;
+    color: black;
+}
+
+/*HOME*/
+.pembungkus-text {
+    width: 100%;
+    height: 200px;
+    background-color: #242582;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text-container {
+    color: white;
+    display: table-column;
+    align-items: center;
+}
+
+/*CARD*/
+.wrapper-flex {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .container {
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    width: 280px;
+    height: 350px;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+    border: 1px solid black;
+  }
+  
+  .banner-img {
+    position: absolute;
+    background-color: #242582;
+    height: 5rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border: 1xp solid black;
+  }
+
+  .banner-img h1 {
+      margin-top: 20px;
+  }
+  
+  .profile-img {
+    width: 8rem;
+    clip-path: circle(60px at center);
+    margin-top: 6rem;
+  }
+  
+  .description {
+    margin: 0.5rem 1rem;
+    font-size: 1.5rem;
+  }
+  
+  /*INFO*/
+  
+.pembungkus-info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: #2f2fa2;
+}
+.konten-atas {
+    width: 100%;
+    text-align: center;
+    color:  white;
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.konten-bawah {
+    display: flex;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.konten-bawah-kiri {
+    width: 50%;
+    color: white;
+    padding-left: 100px;
+    margin-top: 50px;
+}
+.konten-bawah-kanan {
+    width: 50%;
+}
+
+.pembungkus-info h1 {
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: 17px;
+}
+
+.pembungkus-info .konten-bawah-kiri p {
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 10px;
+}
+
+.pembungkus-info .konten-bawah-kiri #jam {
+    padding-bottom: 30px;
+}
+
+
+/*ABOUT ATAS*/
+.pembungkus-about {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: white;
+}
+
+.about-atas {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 100%;
+}
+
+.about-atas-kiri {
+    width: 50%;
+    padding-left: 200px;
+}
+
+.about-atas-kanan {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.about-atas-kanan h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.about-atas-kanan p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+/* ABOUT BAWAH */
+
+.about-bawah {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    width: 100%;
+    background-color: #242582;
+}
+
+.about-bawah-kiri {
+    width: 50%;
+    padding-left: 100px;
+    color: white;
+}
+
+.about-bawah-kanan {
+    width: 50%;
+    padding-left: 50px;
+}
+
+.about-bawah-kiri h1 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 25px;
+    font-weight: 600;
+}
+
+.about-bawah-kiri p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 2px;
+    font-size: 17px;
+}
+
+.about-bawah-kanan ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.about-bawah .about-bawah-kanan li {
+    padding: 10px;
+    padding-top: 70px;
+}
